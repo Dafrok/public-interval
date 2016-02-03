@@ -17,24 +17,27 @@ pi.setProcessor('my-processor', function () {
 pi.go()
 ```
 
+## Option
+- timer {number} Interval time of this handler.
+- processor {object} Initial processors of this handler.
+- autorun {boolean} Whether run this handler when initialized.
+
+
 ## API
 ### pi.go
 - description
     - Start this interval handler.
-- param
-    - {object} obj
-        - property {number} timer Interval time of this handler.
-        - property {object} processor Initial processors of this handler.
-        - property {boolean} autorun Whether run this handler when initialized.
+
 
 ### pi.stop
-- Stop this interval handler.
+- description
+    - Stop this interval handler.
 
 ### pi.setProcessor
 - description
     - Set a new processor in this interval handler.
 - param
-    - name {string} The name of this processor. It's a unique value.
+    - name(optional) {string} The name of this processor. It's a unique value.
     - fn {function} The processor.
 
 ### pi.removeProcessor

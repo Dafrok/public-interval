@@ -1,6 +1,6 @@
 {
   "name": "public-interval",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create a public interval handler for a group of processors.",
   "main": "index.js",
   "scripts": {
