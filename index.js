@@ -16,7 +16,7 @@
         this.handler = function () {
             if (this.flag) {
                 for (key in this.processor) {
-                    setTimeout(this.processor[key], 0)
+                    setImmediate(this.processor[key])
                 }
                 setTimeout(this.handler.bind(this), this.timer)
             }
