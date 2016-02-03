@@ -1,6 +1,6 @@
 # public-interval.js
 ## Intro
-Create a public interval handler for a group of processors.
+Create a public interval handler to manage a group of processors.
 
 ## Install
 ```

@@ -1,7 +1,7 @@
 {
   "name": "public-interval",
   "version": "1.0.3",
-  "description": "Create a public interval handler for a group of processors.",
+  "description": "Create a public interval handler to manage a group of processors.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
